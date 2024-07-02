@@ -25,9 +25,9 @@ var image2 = document.querySelectorAll("img")[1].setAttribute("src", randomImage
 
 
 if(randomNumber1 > randomNumber2) {
-    document.querySelector("h1").innerHTML = "<img src='images/flag.PNG'><img> Player 1 Wins!"
+    document.querySelector("h1").innerHTML = "<img src='images/flag.png'><img> Player 1 Wins!"
 } else if(randomNumber2 > randomNumber1) {
-    document.querySelector("h1").innerHTML = "Player 2 Wins! <img src='images/flag.PNG'></img>";
+    document.querySelector("h1").innerHTML = "Player 2 Wins! <img src='images/flag.png'></img>";
 } else {
     document.querySelector("h1").innerHTML = "It's a Draw Refresh Me!";
 }
